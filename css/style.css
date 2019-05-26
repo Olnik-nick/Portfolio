@@ -8,19 +8,41 @@
 
 .folio {
     margin-right: 30px;
-       
+    height: 250px;
+  width: 425px;
+
 }
 
 img {
-  
+  height: 250px;
+  width: 425px;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    
+   margin-top: 170px;
    width: 100%;
+  
 }
 
 .build p{
     line-height: 30px;
+}
+
+@media screen and (max-width: 1366px) {
+    .fluid-row {
+        flex-direction: column;
+        margin: auto;
+        
+    }
+
+    .metro {
+        display: flex;
+        justify-content: center;
+    }
+
+    .folio {
+        margin-bottom: 80px;
+        
+    }
 }
