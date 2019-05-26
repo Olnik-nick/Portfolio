@@ -7,8 +7,8 @@
 }
 
 .folio {
-    margin-right: 30px;
-    height: 250px;
+ margin-right: 30px;
+ height: 250px;
   width: 425px;
 
 }
@@ -27,6 +27,8 @@ footer {
 
 .build p{
     line-height: 30px;
+ 
+   
 }
 
 @media screen and (max-width: 1366px) {
